@@ -1,0 +1,10 @@
+mat-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  mat-toolbar h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
