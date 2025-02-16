@@ -1,1 +1,49 @@
-<p>footer works!</p>
+<mat-toolbar color="primary" class="footer-container">
+    <div class="footer-content">
+      <!-- Section Contact -->
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <mat-list>
+          <mat-list-item>
+            <mat-icon mat-list-icon>email</mat-icon>
+            <div mat-line>contact&#64;monsite.com</div>
+          </mat-list-item>
+          <mat-list-item>
+            <mat-icon mat-list-icon>phone</mat-icon>
+            <div mat-line>+33 6 12 34 56 78</div>
+          </mat-list-item>
+        </mat-list>
+      </div>
+  
+      <!-- Section Liens rapides -->
+      <div class="footer-section">
+        <h4>Liens rapides</h4>
+        <mat-nav-list>
+          <a mat-list-item routerLink="/home">Accueil</a>
+          <a mat-list-item routerLink="/about">À propos</a>
+          <a mat-list-item routerLink="/contact">Contact</a>
+        </mat-nav-list>
+      </div>
+  
+      <!-- Section Réseaux sociaux -->
+      <div class="footer-section">
+        <h4>Suivez-nous</h4>
+        <div class="social-icons">
+          <a mat-icon-button href="#" aria-label="Facebook">
+            <mat-icon svgIcon="facebook"></mat-icon>
+          </a>
+          <a mat-icon-button href="#" aria-label="Twitter">
+            <mat-icon svgIcon="twitter"></mat-icon>
+          </a>
+          <a mat-icon-button href="#" aria-label="LinkedIn">
+            <mat-icon svgIcon="linkedin"></mat-icon>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Copyright -->
+    <div class="copyright">
+      © 2024 Mon Application Angular. Tous droits réservés.
+    </div>
+  </mat-toolbar>

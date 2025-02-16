@@ -33,3 +33,19 @@ footer {
 footer img {
     width: 20px;
 }
+
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Prend toute la hauteur de la vue */
+}
+
+app-layout {
+  flex: 1; /* Prend l'espace disponible */
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
